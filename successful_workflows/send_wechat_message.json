@@ -1,0 +1,57 @@
+
+[
+  {
+    "action": "press_hotkey",
+    "params": {
+      "keys": ["ctrl", "alt", "w"]
+    }
+  },
+  {
+    "action": "wait",
+    "params": {
+      "seconds": 2
+    }
+  },
+  {
+    "action": "press_hotkey",
+    "params": {
+      "keys": ["ctrl", "f"]
+    }
+  },
+  {
+    "action": "type_text",
+    "params": {
+      "text": "{{contact_name}}"
+    }
+  },
+  {
+    "action": "wait",
+    "params": {
+      "seconds": 2
+    }
+  },
+  {
+    "action": "press_hotkey",
+    "params": {
+      "keys": ["enter"]
+    }
+  },
+  {
+    "action": "wait",
+    "params": {
+      "seconds": 2
+    }
+  },
+  {
+    "action": "type_text",
+    "params": {
+      "text": "{{message_content}}"
+    }
+  },
+  {
+    "action": "press_hotkey",
+    "params": {
+      "keys": ["enter"]
+    }
+  }
+]
