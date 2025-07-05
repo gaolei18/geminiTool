@@ -1,0 +1,31 @@
+{
+  "workflows": [
+    {
+      "name": "send_wechat_parameterized",
+      "description": "Parameterized WeChat messaging workflow with delays - allows custom contact and message",
+      "file": "send_wechat_parameterized.json",
+      "parameters": [
+        {
+          "name": "contact_name",
+          "description": "The name of the contact to send message to"
+        },
+        {
+          "name": "message_content", 
+          "description": "The message content to send"
+        }
+      ]
+    },
+    {
+      "name": "save_notepad_test",
+      "description": "A workflow to open Notepad, type text, and save it to gemini.txt.",
+      "file": "save_notepad_test.json",
+      "parameters": []
+    },
+    {
+      "name": "smart_notepad_test",
+      "description": "Intelligent version of notepad workflow using smart text recognition and verification instead of hardcoded coordinates.",
+      "file": "smart_notepad_test.json",
+      "parameters": []
+    }
+  ]
+}

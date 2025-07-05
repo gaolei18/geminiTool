@@ -1,0 +1,75 @@
+
+[
+  {
+    "action": "press_hotkey",
+    "params": {
+      "keys": ["win", "r"]
+    }
+  },
+  {
+    "action": "wait",
+    "params": {
+      "seconds": 1
+    }
+  },
+  {
+    "action": "type_text",
+    "params": {
+      "text": "notepad"
+    }
+  },
+  {
+    "action": "press_hotkey",
+    "params": {
+      "keys": ["enter"]
+    }
+  },
+  {
+    "action": "wait",
+    "params": {
+      "seconds": 2
+    }
+  },
+  {
+    "action": "take_screenshot",
+    "params": {
+      "file_path": "D:\\sd\\geminiTool\\logs\\notepad_opened.png"
+    }
+  },
+  {
+    "action": "type_text",
+    "params": {
+      "text": "Hello from Gemini! This is a test file."
+    }
+  },
+  {
+    "action": "take_screenshot",
+    "params": {
+      "file_path": "D:\\sd\\geminiTool\\logs\\text_typed.png"
+    }
+  },
+  {
+    "action": "press_hotkey",
+    "params": {
+      "keys": ["ctrl", "s"]
+    }
+  },
+  {
+    "action": "wait",
+    "params": {
+      "seconds": 2
+    }
+  },
+  {
+    "action": "type_text",
+    "params": {
+      "text": "gemini.txt"
+    }
+  },
+  {
+    "action": "press_hotkey",
+    "params": {
+      "keys": ["enter"]
+    }
+  }
+]

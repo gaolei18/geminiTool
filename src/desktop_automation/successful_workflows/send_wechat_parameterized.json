@@ -1,4 +1,3 @@
-
 [
   {
     "action": "press_hotkey",
@@ -7,9 +6,9 @@
     }
   },
   {
-    "action": "wait",
+    "action": "sleep",
     "params": {
-      "seconds": 2
+      "seconds": 1
     }
   },
   {
@@ -19,15 +18,21 @@
     }
   },
   {
-    "action": "type_text",
+    "action": "sleep",
+    "params": {
+      "seconds": 1
+    }
+  },
+  {
+    "action": "paste_text",
     "params": {
       "text": "{{contact_name}}"
     }
   },
   {
-    "action": "wait",
+    "action": "sleep",
     "params": {
-      "seconds": 2
+      "seconds": 1
     }
   },
   {
@@ -37,15 +42,21 @@
     }
   },
   {
-    "action": "wait",
+    "action": "sleep",
     "params": {
       "seconds": 2
     }
   },
   {
-    "action": "type_text",
+    "action": "paste_text",
     "params": {
       "text": "{{message_content}}"
+    }
+  },
+  {
+    "action": "sleep",
+    "params": {
+      "seconds": 1
     }
   },
   {

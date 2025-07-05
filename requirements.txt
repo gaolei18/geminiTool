@@ -1,0 +1,11 @@
+# 核心依赖
+pyautogui>=0.9.54
+pytesseract>=0.3.10
+Pillow>=8.0.0
+pyperclip>=1.8.2
+
+# 开发依赖
+pytest>=6.0
+pytest-cov
+black
+flake8

@@ -1,0 +1,95 @@
+[
+  {
+    "action": "analyze_screen_state",
+    "params": {}
+  },
+  {
+    "action": "press_hotkey",
+    "params": {
+      "keys": ["win", "r"]
+    }
+  },
+  {
+    "action": "wait_for_text_appear",
+    "params": {
+      "target_text": "运行",
+      "timeout": 5
+    }
+  },
+  {
+    "action": "type_text",
+    "params": {
+      "text": "notepad"
+    }
+  },
+  {
+    "action": "press_hotkey",
+    "params": {
+      "keys": ["enter"]
+    }
+  },
+  {
+    "action": "wait_for_text_appear",
+    "params": {
+      "target_text": "记事本",
+      "timeout": 10
+    }
+  },
+  {
+    "action": "verify_operation_result",
+    "params": {
+      "expected_text": "记事本",
+      "timeout": 5
+    }
+  },
+  {
+    "action": "type_text",
+    "params": {
+      "text": "Hello from intelligent Gemini! This is a smart workflow test."
+    }
+  },
+  {
+    "action": "press_hotkey",
+    "params": {
+      "keys": ["ctrl", "s"]
+    }
+  },
+  {
+    "action": "wait_for_text_appear",
+    "params": {
+      "target_text": "另存为",
+      "timeout": 5
+    }
+  },
+  {
+    "action": "type_text",
+    "params": {
+      "text": "smart_gemini_test.txt"
+    }
+  },
+  {
+    "action": "press_hotkey",
+    "params": {
+      "keys": ["enter"]
+    }
+  },
+  {
+    "action": "wait",
+    "params": {
+      "seconds": 2
+    }
+  },
+  {
+    "action": "verify_operation_result",
+    "params": {
+      "expected_text": "smart_gemini_test.txt",
+      "timeout": 3
+    }
+  },
+  {
+    "action": "press_hotkey",
+    "params": {
+      "keys": ["alt", "f4"]
+    }
+  }
+]
